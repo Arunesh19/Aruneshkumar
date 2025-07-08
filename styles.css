@@ -176,6 +176,10 @@ section h2::after {
   border-radius: 2px;
 }
 
+#about p {
+  line-height: 1.5;
+}
+
 /* Education Grid */
 .education-grid {
   display: grid;

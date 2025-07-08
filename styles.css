@@ -256,6 +256,30 @@ section h2::after {
   object-fit: cover;
 }
 
+#final-year-project {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+#final-year-project h2 {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#final-year-project h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--accent-color);
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+
 /* Certifications */
 .certification-row {
   display: grid;
